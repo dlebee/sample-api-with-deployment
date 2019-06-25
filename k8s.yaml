@@ -44,7 +44,7 @@ spec:
   tls:
   - hosts: 
     - sample.mslink.net
-    secretName: tls-secret-prod
+    secretName: sample-api-certificate
   rules:
     - host: sample.mslink.net
       http:
