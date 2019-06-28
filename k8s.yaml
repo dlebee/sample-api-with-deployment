@@ -53,13 +53,3 @@ spec:
             serviceName: sample-api-service
             servicePort: 80
           path: /(.*)
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: sample-api-db-credentials
-type: Opaque
-data:
-  username: c2FtcGxlLWFwaS11c2VyCg==
-  password: U2FtcGxlQXBpMjAxOQo=
----
